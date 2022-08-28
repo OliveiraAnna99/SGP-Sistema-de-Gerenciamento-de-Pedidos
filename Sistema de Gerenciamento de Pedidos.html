@@ -7,7 +7,7 @@
     }
 
 
-    .card{
+    .card-bank{
         position: absolute;
         width: 100%;
         height: 232px;
@@ -36,13 +36,27 @@
     #contents{
         margin-top: 230px;
     }
+    .card{
+        background-color: transparent;
+        height: 120px;
+        width: 120px;
+        border-radius: 16%;
+        border-style: solid;
+        border-color: grey;
+        display: inline-flex;
 
-
+    }   
+    
+    .card-title{ 
+        padding-top: 68px;
+        padding-left: 7px;
+    }
 </style>
 <html lang="PT-Br">
     <body>
       <div class="main">
-        <div class="card">
+        <!-- parte superior do template: cartão com os dados da conta-->
+        <div class="card-bank">
             <center><h2> Carteira </h2></center>
             <div id="info-card"> 
                 <h5>Instituição 319 </h5>
@@ -53,9 +67,35 @@
                 <input type="submit" class="btn-withdraw" value="Sacar >" />
             </center> 
         </div>
+
         <div id="contents">
+        
             <h2> Serviços </h2>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Adicionar Conta Bancária</h5>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Formas de Pagamento</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Transferir</h5>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Saque</h5>
+                </div>
+            </div>
+
+            
         </div>
+        
       </div>
     </body>
 </html>
