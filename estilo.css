@@ -1,0 +1,92 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.card-bank{
+    position: absolute;
+    width: 100%;
+    height: 232px;
+    left: absolute;
+    top: absolute;
+    background: #FFCD2F;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+
+
+}
+#info-card{
+    padding-left: 10%;
+  
+}
+.btn-withdraw{
+    
+    background-color: transparent;
+    border-inline-start-color: transparent;
+    border-inline-end-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  
+}
+
+#contents{
+    margin-top: 230px;
+}
+.card{
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    border-radius: 16%;
+    border-style: solid;
+    border-color: grey;
+    display: inline-flex;
+
+}   
+
+.card-title{ 
+    padding-top: 68px;
+    padding-left: 7px;
+}
+
+    .details-pedido{
+        background-color: #FFCD2F;
+        height: 260px;
+        border-radius: 4%;
+        padding-top: 30px;
+
+    }
+
+    .details-item-pedido{
+        background-color: #c5bda2;
+        height: 160px;
+        border-radius: 4%;
+        padding-top: 2px;
+    }
+    #card-pedido-details{
+        padding-left: 120px;
+        
+       
+    }
+    .card-pedido-details-2{
+  
+        float: right;
+        padding-right: 40px;
+    }
+ 
+    body{
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .card-flex{
+        margin-top: 12px;
+        display: flex;
+        flex-direction: row;
+    }
+    .div-item{
+        margin-top: 3px;
+    }
+
+    
